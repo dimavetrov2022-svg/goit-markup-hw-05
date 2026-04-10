@@ -632,6 +632,9 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-bth {
+  margin-left: auto;
+}
 /*------------ modal ------------*/
 
 .backdrop {
@@ -839,6 +842,7 @@ form {
   min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
   color: #ffffff;
@@ -852,7 +856,6 @@ form {
 .modal-submit-bth:hover,
 .modal-submit-bth:focus {
   background-color: #404bbf;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .modal-icon {
