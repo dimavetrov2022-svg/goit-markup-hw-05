@@ -500,7 +500,15 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 120px;
+  gap: 0;
+}
+
+.container-footers {
+  margin-right: 120px;
+}
+
+.social-footers {
+  margin-right: 80px;
 }
 
 .social-footers {
@@ -677,6 +685,10 @@ img {
   fill: #ffffff;
 }
 
+.modal-close-icon {
+  fill: #2e2f42;
+}
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -719,6 +731,20 @@ form {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input:focus {
+  border-color: #4d5ae5;
+  outline: transparent;
 }
 
 .modal-input:focus,
@@ -822,6 +848,12 @@ form {
   line-height: 1.5;
   letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit-bth:hover,
+.modal-submit-bth:focus {
+  background-color: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .modal-icon {
