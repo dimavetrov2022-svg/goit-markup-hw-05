@@ -40,7 +40,6 @@ textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
-  cursor: pointer;
 }
 
 img {
@@ -498,9 +497,8 @@ img {
 .footer-container {
   padding: 100px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: baseline;
-  gap: 0;
 }
 
 .container-footers {
@@ -687,6 +685,7 @@ img {
 
 .modal-close-icon {
   fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -743,7 +742,7 @@ form {
 }
 
 .footer-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
   outline: transparent;
 }
 
